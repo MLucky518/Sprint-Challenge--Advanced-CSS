@@ -1,1 +1,68 @@
-// Navigation code here
+.headerNavContainer{
+    .flexCenter();
+    
+    .headerNav{
+        .flexCenter();
+        width:25%;
+        height:15vh;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media @phone {
+          
+            width:90%;
+          }
+        a{
+            color:black;
+            font-weight:bold;
+            font-size:1.2rem;
+            text-decoration:none;
+            .navButtonDesignDesktop();
+            margin-top:3%;
+    
+            &:hover{
+                background:lightgray;
+                color:black;
+            }
+        }
+        
+    
+       
+      }
+    }
+
+      .headerNavContainerAbout{
+        .flexCenter();
+        
+        .headerNavAbout{
+            .flexCenter();
+            width:17%;
+            height:15vh;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            @media @phone {
+              
+                width:90%;
+              }
+            a{
+                color:black;
+                font-weight:bold;
+                font-size:1.2rem;
+                text-decoration:none;
+                .navButtonDesignDesktop();
+                margin-top:3%;
+        
+                &:hover{
+                    background:lightgray;
+                    color:black;
+                }
+            }
+        }
+    }
+
+
+     
+    
+    
+    
