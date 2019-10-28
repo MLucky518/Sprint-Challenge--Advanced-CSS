@@ -399,3 +399,27 @@ footer {
     display: none;
   }
 }
+.home .aboutUs .earthPic {
+  position: relative;
+  left: 12%;
+  margin-bottom: 5%;
+}
+.home .aboutUs h2 {
+  margin-bottom: 2%;
+}
+.home .aboutUsImages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .aboutUsImages img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+@media (max-width:500px) {
+  .home .aboutUsImages img {
+    width: 100%;
+  }
+}
