@@ -49,7 +49,7 @@ i would describe it as an easier way to achieve the same result in css
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-my favorite are the paramegtric mixins. As a programmer i love this concept, and my least favorite would be getting the compiler working correctly
+my favorite are the parametric mixins. As a programmer i love this concept. My least favorite would be getting the compiler working correctly
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
